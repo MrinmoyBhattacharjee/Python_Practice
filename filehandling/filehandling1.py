@@ -1,0 +1,6 @@
+f=open("Student.txt","w")
+f.write("This is Simple text file\n")
+f.write("This is  a second line")
+f.close()
+f=open("Student.txt","a")
+f.write("testing\n")
